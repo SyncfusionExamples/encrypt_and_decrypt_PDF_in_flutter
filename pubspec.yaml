@@ -1,0 +1,27 @@
+name: secure_pdf
+description: A new Flutter project to secure a PDF file.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_pdf: ^18.4.32-beta
+  cupertino_icons: ^1.0.0
+  open_file: ^3.0.1
+  path_provider: ^1.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/credit_card_statement.pdf
+    - assets/secured.pdf
